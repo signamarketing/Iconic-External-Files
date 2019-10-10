@@ -1,0 +1,902 @@
+@import url("//hello.myfonts.net/count/363eaf");
+
+@font-face {font-family: 'NewCaledoniaLTStd';src: url('/wp-content/custom_css/fonts/363EAF_0_0.eot');src: url('/wp-content/custom_css/fonts/363EAF_0_0.eot?#iefix') format('embedded-opentype'),url('/wp-content/custom_css/fonts/363EAF_0_0.woff2') format('woff2'),url('/wp-content/custom_css/fonts/363EAF_0_0.woff') format('woff'),url('/wp-content/custom_css/fonts/363EAF_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'NewCaledoniaLTStd-It';src: url('/wp-content/custom_css/fonts/363EAF_1_0.eot');src: url('/wp-content/custom_css/fonts/363EAF_1_0.eot?#iefix') format('embedded-opentype'),url('/wp-content/custom_css/fonts/363EAF_1_0.woff2') format('woff2'),url('/wp-content/custom_css/fonts/363EAF_1_0.woff') format('woff'),url('/wp-content/custom_css/fonts/363EAF_1_0.ttf') format('truetype');}
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+#header .inner-header .container {
+    padding: 80px 0 20px;
+}
+.penci-grid .cat a.penci-cat-name,
+.penci-masonry .cat a.penci-cat-name {
+    top: 4px
+}
+.penci-border-arrow .inner-arrow {
+    border: none;
+    background: transparent;
+    padding: 0;
+    border-bottom: 1px solid #dedede;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+span.inner-arrow:before {
+    content: '';
+    background-color: #000000;
+    /*    background-color: #a60505;*/
+    width: 40px;
+    position: absolute;
+    height: 3px;
+    bottom: -1.5px;
+}
+.sidebar-home {
+    background: #f1f1f1;
+    margin-bottom: 40px;
+}
+.widget_categories ul {
+    padding-left: 7px;
+}
+.widget_categories ul li a {
+    font-style: italic;
+    font-weight: 500;
+}
+.grid-post-box-meta mag-meta {
+    color: #000000;
+}
+.container-single .penci-standard-cat .cat > a.penci-cat-name {
+    bottom: -4px;
+    color: #000;
+}
+.iconiccraves span {
+    position: relative;
+    bottom: 2px;
+}
+.penci-homepage-title {
+    display: none;
+}
+.vc_box_outline_circle {
+    background: #ffffff;
+    padding: 8px !important;
+}
+#header {
+    margin-bottom: 20px;
+}
+.post-entry a, .container-single .post-entry a {
+    color: #515151;
+    font-weight: 600;
+}
+.grid-post-box-meta,
+.header-standard .author-post,
+.penci-post-box-meta .penci-box-meta,
+.overlay-header-box .overlay-author,
+.post-box-meta-single,
+.tags-share-box {
+    font-size: 13px;
+}
+#navigation .menu li a {
+    font-family: 'Benton Mod Disp It', serif;
+    font-style: italic;
+    letter-spacing: .15em;
+}
+#navigation.menu-item-padding ul.menu > li > a {
+    padding: 0 28px;
+}
+h1,
+h3,
+h4,
+h5,
+p {
+    font-family: 'NewCaledoniaLTStd', serif;
+}
+.widget ul li,
+.post-entry,
+p,
+.post-entry p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.post-box-meta-single {
+    text-align: center;
+    margin: 20px 0 2px;
+}
+.penci-standard-cat {
+    padding: 20px 0;
+}
+.archive-box span {
+    font-family: 'NewCaledoniaLTStd', serif;
+}
+.archive-box h1 {
+    font-family: 'NewCaledoniaLTStd', serif;
+}
+
+/* Side Bar */
+
+.penci-sidebar-content .widget-title {
+    font-family: 'NewCaledoniaLTStd', serif;
+}
+h2 {
+    font-family: 'Benton Mod Disp It', serif;
+    font-style: italic;
+}
+.header-standard .post-title,
+.header-standard h2 a {
+    font-family: 'Benton Mod Disp It', serif;
+    font-style: italic;
+}
+.home-featured-cat-content.style-14 .first-post .magcat-detail h3 a {
+    font-family: 'NewCaledoniaLTStd', serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: .95em;
+    letter-spacing: -2px;
+}
+.home-featured-cat-content.style-14 .mag-meta {
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+    bottom: -28px;
+}
+.home-featured-cat-content.style-14 .penci-image-holder:after {
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    background: #000000;
+    opacity: 0.3;
+}
+.penci-homepage-title.penci-magazine-title h3 a,
+.penci-border-arrow.penci-homepage-title .inner-arrow {
+    font-family: 'Benton Mod Disp It', serif;
+    font-style: italic;
+    text-transform: none;
+}
+body,
+textarea,
+#respond textarea {
+    font-family: 'NewCaledoniaLTStd', serif;
+}
+h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.post-entry h6,
+.wpb_text_column h6 {
+    font-size: 15px;
+    letter-spacing: .1em;
+}
+/* .post-entry p {
+    font-style: italic;
+} */
+.post-entry p,
+.wpb_text_column p {
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+p.iconiccraves {
+    text-align: center;
+    margin-top: -15px;
+    line-height: 1.3;
+}
+
+/*Blog Posts*/
+
+div .reg-large-columntext {
+font-family:'Benton Mod Disp Reg', serif;
+    font-size: 90px;
+    line-height: .35;
+    letter-spacing: -4px;
+}
+.reg-large-columntext-right {
+    font-family:'Benton Mod Disp Reg', serif;
+    font-size: 90px;
+    text-align: right;
+    line-height: .35;
+    letter-spacing: -4px;
+}
+.header-standard.header-classic {
+    margin: 0 0 0 0;
+}
+.photo-byline {
+    text-align: center;
+    font-size: 13px;
+}
+.container-single .single-post-title {
+    font-size: 50px;
+    letter-spacing:-1px !important;
+}
+
+.drop-cap {
+    font-family: 'Benton Mod Disp Reg', serif;
+    float: left;
+    width: 0.55em;
+    height: 0.7em;
+    font-size: 1000%;
+    line-height: 90%;
+}
+.cat > a.penci-cat-name {
+    font-size: 12px;
+    letter-spacing: .05em;
+    line-height: .6;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+}
+.vc_gitem-post-data {
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+.vc_grid-filter.vc_grid-filter-center {
+    text-align: left;
+}
+.vc_grid-filter.vc_grid-filter-size-md .vc_grid-filter-item {
+    font-size: 12px;
+    line-height: .9;
+    letter-spacing: .05em;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.vc_grid-filter-item:before {
+    content: ' \005C \0020';
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+.vc_grid-filter-item:after {
+    content: ' \005C';
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+.cat:before {
+    content: ' \005C \0020';
+    color: #000;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.cat:after {
+    content: ' \005C';
+    color: #000;
+    font-weight: 600;
+}
+.post-entry h3 {
+    line-height: 1;
+    margin-bottom: 5px;
+    font-family: 'Benton Mod Disp It', serif;
+}
+.post-entry ul {
+    padding-left: 18px;
+    padding-top: 10px;
+}
+.post-entry ul li {
+    margin-bottom: 7px;
+    position: relative;
+    list-style-type: disc;
+    line-height: 1.2;
+}
+.container-single .penci-standard-cat .cat:before,
+.container-single .penci-standard-cat .cat:after {
+    background-color: #fff;
+}
+.penci-standard-cat .cat:before,
+.penci-standard-cat .cat:after {
+    background-color: #fff;
+}
+.vc_gitem_row {
+    background: #fff;
+}
+.multislash {
+    color: #797979;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 19px;
+}
+.b-font-w-txt {
+    font-family: 'NewCaledoniaLTStd', serif;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sub-head {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .7px;
+}
+.reg-subhead {
+    font-family: 'Benton Mod Disp Reg', serif;
+    line-height: 1.1;
+    font-size: 19px;
+}
+.ital-subhead {
+    font-family: 'Benton Mod Disp It', serif !important;
+    line-height: 1.6;
+    font-size: 19px;
+}
+h2.large-columntext {
+    font-size: 100px;
+    text-align: center;
+    line-height: .35;
+    letter-spacing: -3px;
+}
+.details-ul {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: .7px;
+}
+div.cap-body-header {
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 40px;
+line-height: 1em;
+letter-spacing: -.5px;
+font-weight: 600;
+}
+div.cap-body-sub-head-right {
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 26px;
+line-height: 1em;
+text-align: right;
+letter-spacing: -.5px;
+font-weight: 600;
+}
+div.cap-body-sub-head-left {
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 26px;
+line-height: 1em;
+text-align: left;
+letter-spacing: -.5px;
+font-weight: 600;
+}
+p.cap-body-txt {
+font-family: 'Barlow Condensed', sans-serif !important;
+font-size: 18px;
+line-height: 1.2em !important;
+}
+p.cap-body-txt-right {
+font-family: 'Barlow Condensed', sans-serif !important;
+font-size: 18px;
+line-height: 1.2em !important;
+text-align: right;
+}
+.cap-text {
+font-size: 15px !important;
+font-family: 'Barlow Condensed', sans-serif;
+font-weight: 500;
+line-height: 1.2;
+}
+.cap-text-center {
+font-size: 15px !important;
+font-family: 'Barlow Condensed', sans-serif;
+font-weight: 500;
+line-height: 1.2;
+text-align: center;
+}
+.credits-post {
+    font-size: 15px !important;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+}
+.credits-post-heavy {
+    font-size: 15px !important;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+}
+.credits-post-right {
+    font-size: 15px !important;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    text-align: right;
+}
+.p2 {
+    padding-top: 30px;
+    font-style: italic;
+    font-size: 22px !important;
+    text-align: center;
+    line-height: 1 !important;
+}
+.p3 {
+    font-size: 28px !important;
+    line-height: 1em !important;
+}
+.p4 {
+    padding-top: 10px;
+    font-family: 'Benton Mod Disp It', serif !important;
+    font-size: 22px !important;
+    line-height: 1.1 !important;
+}
+.p4-right {
+    padding-top: 10px;
+    font-family: 'Benton Mod Disp It', serif !important;
+    font-size: 22px !important;
+    line-height: 1.1 !important;
+    text-align: right;
+}
+.dek-ital-center {
+    font-family: 'NewCaledoniaLTStd-It', serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 30px;
+}
+.p-serif-right {
+    padding-top: 10px;
+    font-size: 18px !important;
+    line-height: 1.3 !important;
+    text-align: right;
+}
+.p-serif-left {
+    padding-top: 10px;
+    font-size: 18px !important;
+    line-height: 1.3 !important;
+    text-align: left;
+}
+.p2-center {
+    font-size: 24px !important;
+    text-align: center;
+    line-height: 1.3 !important;
+}
+
+.left-float-img {
+    float: left;
+    margin-top: -46px;
+    margin-left: 30px;
+}
+/*
+.post-entry h3,
+.wpb_text_column h3 {
+    font-family: 'Benton Mod Disp It', serif;
+    font-style: italic;
+    font-size: 24px;
+}
+*/
+
+.container-single .post-entry .post-tags a {
+    text-transform: lowercase;
+    font-style: italic;
+}
+.container-single .post-box-meta-single {
+    text-align: left;
+    text-transform: uppercase;
+}
+.header-standard .author-post span a {
+    text-transform: uppercase;
+}
+article.page.type-page {
+    margin-bottom: 0px;
+}
+.clear-footer {
+    margin-bottom: 0px;
+}
+.footer-subscribe {
+    padding: 50px 0 40px;
+}
+#navigation .button-menu-mobile {
+    //display: none;
+}
+.footer-subscribe .mc4wp-form .mdes {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.footer-subscribe .mc4wp-form .mdes {
+    font-size: 17px;
+    font-style: normal;
+}
+.footer-subscribe .widget .mc4wp-form input[type="submit"] {
+    font-weight: 500;
+}
+ul.footer-socials li a span {
+    font-size: 0px;
+}
+.featured-area.featured-style-13 {
+    margin-top: 0px;
+}
+.widget ul.side-newsfeed li .side-item .side-item-text h4 a {
+    font-size: 14px
+}
+.prev-post-title,
+.next-post-title {
+    font-style: italic;
+    font-family: 'NewCaledoniaLTStd', serif !important;
+}
+.container-single .header-standard,
+.container-single .post-box-meta-single {
+    text-align: center;
+}
+.header-standard .author-post span {
+    font-style: italic;
+    text-transform: lowercase;
+    color: #000000;
+}
+.header-standard .author-post span a {
+    font-style: normal;
+}
+.post-box-meta-single > span:before {
+    content: "\005C";
+    border-right: none;
+    color: #000000;
+}
+.post-box-meta-single span {
+    color: #000000 !important;
+}
+#respond h3.comment-reply-title span,
+.post-box-title {
+    font-family: 'NewCaledoniaLTStd', serif;
+}
+#respond #submit,
+.wpcf7 input[type="submit"],
+.widget_wysija input[type="submit"],
+.archive-box span,
+.widget input[type="submit"],
+.widget button[type="submit"],
+.contact-form input[type=submit],
+#bbpress-forums #bbp-search-form .button {
+    font-family: 'NewCaledoniaLTStd', serif;
+}
+.widget input[type="submit"],
+.widget button[type="submit"] {
+    color: #ffffff;
+    background: #000000;
+}
+#respond #submit:hover,
+.wpcf7 input[type="submit"]:hover,
+.widget_wysija input[type="submit"]:hover {
+    color: #fff;
+    background-color: #aaaaaa;
+    border-color: #aaaaaa;
+}
+#respond #submit,
+.wpcf7 input[type="submit"],
+.widget_wysija input[type="submit"] {
+    color: #fff;
+    background-color: #000000;
+}
+
+#respond h3.comment-reply-title span {
+    font-family: 'NewCaledoniaLTStd', serif;
+}
+.post-entry.blockquote-style-2 blockquote:before {
+    height: 1px;
+    width: 100%;
+}
+.post-entry.blockquote-style-2 blockquote:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    bottom: 0;
+    width: 200px;
+    background: #000000;
+    margin-left: 50%;
+    text-align: center;
+    transform: translateX(-61%);
+}
+.post-entry blockquote p {
+    color: #000000;
+    font-size: 24px;
+}
+.pagi-text h5 {
+    font-family: 'NewCaledoniaLTStd', serif;
+}
+.post-entry.blockquote-style-2 blockquote {
+background: transparent;
+}
+.post-entry.blockquote-style-2 blockquote p {
+text-align: center;
+font-family: 'Benton Mod Disp It', serif !important;
+letter-spacing: .01em;
+font-size: 30px;
+line-height: 1;
+margin: 15px 0;
+}
+4 .home-featured-cat-content.style-14 .first-post .magcat-detail .mag-header p {
+font-style: italic;
+}
+.grid-post-box-meta span.author-italic {
+    font-style: italic;
+    text-transform: lowercase;
+}
+#post-1589 > div > div > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1521268725211.vc_row-has-fill.vc_row-o-full-height.vc_row-o-columns-top.vc_row-o-equal-height.vc_row-o-content-top.vc_row-flex > div.wpb_column.vc_column_container.vc_col-sm-9.vc_col-has-fill > div > div > div.home-featured-cat.mag-cat-style-2.mag-cat-style-14 > div.home-featured-cat-content.style-14 > div > div > div > div > div > span.author-italic > a {
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.grid-post-box-meta span.author-italic a {
+    font-style: normal;
+    text-transform: uppercase;
+}
+.grid-post-box-meta span a {
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.widget_adbutler {
+    /* position: relative;
+    margin-left: 30%;
+    transform: translate(-18%); */
+    text-align:center;
+}
+
+.footer-subscribe {
+    padding: 50px 0 0 0;
+}
+
+.footer-subscribe ._form-content div._form_element._full_width {
+    width: 100% !important;
+    float: none !important;
+}
+
+.footer-subscribe ._form-content div._button-wrapper._full_width{
+    width: 100% !important;
+    float: none !important;
+    margin-top: 5px !important;
+}
+
+html.js_active.vc_desktop.vc_transform body.home.page-template-default.page.page-id-1589.wpb-js-composer.js-comp-ver-5.4.7.vc_responsive div.wrapper-boxed.header-style-header-5 div.footer-subscribe aside#custom_html-14.widget_text.widget.widget_custom_html div.textwidget.custom-html-widget div._form_7 form#_form_5AAED43DE3B24_._form._form_7._inline-form div._form-content div._form_element._x23997164._full_width div._field-wrapper input {
+    color: #000 !important;
+}
+
+
+.post-tags a {
+    border-color: #000000 !important;
+    color: #000000 !important;
+}
+
+
+div._form_element div input {
+
+    border-radius: 0 !important;
+    border-color: #545454 !important;
+}
+
+._full_width button#_form_7_submit._submit{
+    margin: auto;
+}
+
+@media only screen and (max-width: 1258px) {
+    .home-featured-cat-content.style-14 .penci-image-holder:after {
+        height: 320px
+    }
+}
+@media only screen and (max-width: 1182px) {
+    .home-featured-cat-content.style-14 .penci-image-holder:after {
+        height: 360px
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .home-featured-cat-content.style-14 .mag-post-box:last-child {
+        overflow: visible !important;
+    }
+    .home-featured-cat-content.style-14 .penci-image-holder:after {
+        display: none;
+    }
+    .home-featured-cat-content.style-14 .first-post .magcat-detail {
+        position: absolute !important;
+        bottom: -300px !important;
+        border-left: solid 93px #000;
+        height: 300px;
+        padding-top: 14px;
+        left: 0px;
+    }
+    .home-featured-cat-content.style-14 .first-post .magcat-detail .mag-header {
+        width: 88% !important;
+        bottom: 60px !important;
+        left: 0px !important;
+        top: -7px;
+    }
+    .gridPost-mobile {
+        margin-top: 275px;
+    }
+    .vc_grid-container {
+        margin-left: 0px !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .home-featured-cat-content.style-14 .first-post .magcat-detail h3 a {
+        font-size: 27px;
+    }
+    .post-entry p {
+        line-height: 1.2;
+    }
+    .gridPost-mobile {
+        margin-left: 0;
+    }
+    .vc_grid-container {
+        max-width: 100% !important;
+    }
+    .sidebar-home {
+        width: 100%;
+        margin: 130px 0 0 0;
+    }
+    #logo a img {
+        width: 80%;
+    }
+    .sidebar-home > div {
+        margin: 0 !important;
+    }
+}
+#searchform input.search-input {
+letter-spacing: 0px;
+font-size: 13px;
+font-family: 'NewCaledoniaLTStd', serif;
+padding-top: 14px;
+margin: 30px 0;
+}
+.textwidget {
+line-height: 1.2;
+font-size: 15px;
+text-align: center;
+padding-bottom: 2px;
+}
+._form_element _x98179340 _full_width _clear {
+padding-top: 20px;
+}
+#_form_5ACC5EC5B1687_ > div._form-content > div._form_element._x65047462._full_width._clear{
+    width: 100% !important;
+}
+
+/* .items {padding:20px 0;};
+.items .glasshead {text-align: center !important; font-size: 56px!important;}
+.items .p3-glass {style="text-align: center;}
+.items .cap-body-txt-glass {text-align: center; line-height:30px !important;} */
+.postid-2778 .post-box-meta-single {padding-top:30px;}
+.glass-mobile {display:none;}
+@media screen and (max-width: 767px) {4
+.glass-desktop {display:none;}
+.glass-mobile {display:block;}
+
+}
+
+.mothersday18 {padding-top:175px;}
+.mothersday181 {padding-top:50px;}
+.mothersdaythanks{margin: 0 180px;}
+@media screen and (max-width: 1169px) {
+.mothersday18 { padding-top:55px;}
+.mothersday181 {padding-top:0px;}
+.mothersdaythanks{margin: 0 150px;}
+}
+@media screen and (max-width: 960px) {
+.mothersday18 { padding-top:0;}
+.mothersdaythanks{margin: 0;}
+}
+
+@media (max-width: 667px) and (min-width: 320px) {
+    #_form_5AF4788A80C81_ input[type="text"] {font-size:12px !important;}
+    .gridPost-mobile {
+        margin-top: 70px;
+    }
+
+}
+@media (max-width: 768px) {
+.vc_responsive .vc_grid-filter {display:block !important;}
+
+.gent-desk {display:none;}
+}
+
+.ad-mobile {display:none;}
+@media (max-width: 667px) and (min-width: 320px) {
+    .ad-mobile {display:block; text-align: center; margin-top: 300px; margin-bottom: 30px;}
+    #adbutler-2 {display:none;}
+
+}
+
+#custom_html-12 {padding-bottom:40px;}
+#custom_html-12 p {padding-bottom:20px; font-size:16px;}
+
+.post-ad-hc {padding-top:100px;}
+
+blockquote .author {text-align: center !important; font-family:'Barlow Condensed', sans-serif !important; font-size:18px !important;}
+.author span:after {width:0 !important; }
+.author span {padding:0 !important;}
+
+.statement {max-width:600px; text-align: center; margin:0 auto; padding-top:50px; }
+.statement p {font-size:19px;}
+
+.founder {max-width:689px; margin:0 auto; margin-top:80px;}
+.founder img { margin:0 40px 0 60px;}
+.founder p {padding-top:180px; font-size:14px;}
+.b-quote {max-width:689px; margin:0 auto; border-top:1px solid #000; }
+.b-quote blockquote {background: transparent; padding: 10px 20px 10px 24px; position: relative; border: none !important; overflow: hidden; font-size: 16px; color: #888; font-style: italic; line-height: 1.7; text-align: left; margin: 0 0 20px 0;}
+.b-quote blockquote:before { content: ''; left: 0; position: absolute; height: 100%; top: 0; width: 4px; background: #000000; height: 14px; padding:0 60px; width: 100%; background-clip:content-box; box-sizing:border-box;}
+.b-quote blockquote p {    text-align: center;font-family: 'Benton Mod Disp It', serif !important;letter-spacing:0.01em;font-size: 30px;line-height: 1; margin: 30px 0 15px; color: #000000;}
+.b-quote blockquote:after {    content: ''; position: absolute; height: 1px; bottom: 0; width: 200px; background: #000000; margin-left: 50%; text-align: center; transform: translateX(-61%);}
+.spacer {max-width:689px; height:1px; background-color:#000; margin:0 auto;}
+.m-video {max-width:689px; margin:0 auto; padding:30px 0 50px 0px; text-align:center;}
+.emp {max-width:689px; text-align:center; margin:0 auto; padding-top:50px; margin-bottom:30px;}
+.emp img {padding-bottom:50px;}
+.emp p {padding:10px 0; line-height:20px; }
+.emp span {font-size:18px;}
+.minispacer {max-width:62px; height:1px; margin:15px auto; background-color:#000;}
+.wrap {padding:0 20px;}
+
+@media (max-width: 530px) {
+    .founder p {font-size:10px;}
+    .founder img {margin:0 25px 0 60px;}
+
+}
+
+.p-copy-right {
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: right;
+}
+
+.gentlemens-credit {text-align: center;  font-size:13px !important; font-weight:normal !important;}
+.swim-credit { position:relative; text-align: center; font-size:13px !important; font-weight:normal !important;}
+
+.postid-3303 .single-header {padding-top:50px !important;}
+.postid-3303 .post-box-meta-single {padding-top:25px;}
+.postid-3303 .container-single .single-post-title {line-height:48px;}
+.gent-mobile {display:none;}
+
+
+/*------------------------- remove me before monday's post ---------------------------
+.home-featured-cat-content.style-14 .first-post .magcat-detail h3 a { font-size:34px;}
+@media (max-width: 588px) {
+.home-featured-cat-content.style-14 .first-post .magcat-detail h3 a { font-size:26px;}
+}
+.page-id-1589 .post-entry p {display:none;}
+/*------------------------- remove me before monday's post ---------------------------*/
+
+
+.postid-3351 .post-title{  padding-bottom: 25px;}
+.top-quote  {max-width:689px; margin:0 auto; border-top:1px solid #000; }
+.top-quote .inner-top-quote {background: transparent; padding: 10px 20px 10px 24px; position: relative; border: none !important; overflow: hidden; font-size: 16px; color: #888; font-style: italic; line-height: 1.7; text-align: left; margin: 0 0 20px 0;}
+.top-quote .inner-top-quote:before { content: ''; left: 0; position: absolute; height: 100%; top: 0; width: 4px; background: #000000; height: 14px; padding:0 60px; width: 100%; background-clip:content-box; box-sizing:border-box;}
+
+div.cap-body-header-center {
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 40px;
+line-height: 1em;
+letter-spacing: -.5px;
+font-weight: 600;
+text-align: center;
+}
+
+.ital-large-subhead-center {
+text-align: center;
+font-family: 'Benton Mod Disp It', serif !important;
+letter-spacing: -1px;
+font-size: 30px;
+line-height: 1.1em;
+}
+
+h2.large-columntext-right {
+font-size: 100px;
+text-align: right;
+line-height: .35;
+letter-spacing: -3px;
+}
+
+h2.large-columntext-left {
+font-size: 100px;
+text-align: left;
+line-height: .35;
+letter-spacing: -3px;
+}
+
+.penci-pullqoute {max-width:689px; margin:0 auto; border-top:1px solid #000; }
+.penci-pullqoute blockquote {background: transparent; padding: 10px 20px 10px 24px; position: relative; border: none !important; overflow: hidden; font-size: 16px; color: #888; font-style: italic; line-height: 1.7; text-align: left; margin: 0 0 20px 0;}
+.penci-pullqoute blockquote:before { content: ''; left: 0; position: absolute; height: 100% !important; top: 0; width: 4px !important; background-color: #000000 !important; height: 14px !important; padding:0 60px; width: 100% !important; background-clip:content-box; box-sizing:border-box;}
+.penci-pullqoute blockquote p {    text-align: center;font-family: 'Benton Mod Disp It', serif !important;letter-spacing:0.01em;font-size: 30px;line-height: 1; margin: 30px 0 15px; color: #000000;}
+.penci-pullqoute blockquote:after {    content: ''; position: absolute; height: 1px; bottom: 0; width: 200px; background: #000000; margin-left: 50%; text-align: center; transform: translateX(-61%);}
+
+.post-box-meta-single > span:before {margin: 0 15px 0 10px;}
+
+.postid-3526 .author-post {display:none;}
+
+.postid-3526 .post-box-meta-single > span:before {content:""; }
+.postid-3526 .post-box-meta-single > span:before {margin:0 15px 0 -15px;}
+
+#story-content .content p {padding:0 !important;}
+.aligncenter {
+    margin:0 !important;
+}
