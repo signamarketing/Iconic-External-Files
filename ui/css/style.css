@@ -11,6 +11,8 @@ abbr, acronym, address, article, aside, audio, blockquote, body, canvas, caption
  -webkit-text-size-adjust: 100%
 }
 
+body {overflow-x: hidden;}
+
 a, b, em, i, small, span, strong, sub, sup {
  border: 0;
  outline: 0;
