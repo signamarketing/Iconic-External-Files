@@ -201,7 +201,7 @@ input[type=text]::-ms-clear {
  font-style: italic
 }
 
-@font-face {
+/* @font-face {
  font-family: 'Benton';
  src: url("../fonts/benton/BentonModDisp-Bold.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-Bold.woff") format("woff");
  font-weight: 600;
@@ -213,7 +213,7 @@ input[type=text]::-ms-clear {
  src: url("../fonts/benton/BentonModDisp-BoldItalic.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-BoldItalic.woff") format("woff");
  font-weight: 600;
  font-style: italic
-}
+} */
 
 @font-face {
  font-family: 'Barlow';
