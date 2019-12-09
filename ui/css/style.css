@@ -292,11 +292,6 @@ input[type=text]::-ms-clear {
  font-style: normal
 }
 
-@font-face 
-this is a test
-ahaha
-
-
 @font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-BoldIt.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-BoldIt.woff") format("woff");
