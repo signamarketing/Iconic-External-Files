@@ -285,13 +285,14 @@ input[type=text]::-ms-clear {
  font-style: italic
 } */
 
-/* @font-face {
+@font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-Bold.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-Bold.woff") format("woff");
  font-weight: 600;
  font-style: normal
 }
 
+/*
 @font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-BoldIt.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-BoldIt.woff") format("woff");
