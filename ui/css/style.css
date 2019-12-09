@@ -201,7 +201,7 @@ input[type=text]::-ms-clear {
  font-style: italic
 }
 
-@font-face {
+/* @font-face {
  font-family: 'Benton';
  src: url("../fonts/benton/BentonModDisp-Bold.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-Bold.woff") format("woff");
  font-weight: 600;
@@ -213,7 +213,7 @@ input[type=text]::-ms-clear {
  src: url("../fonts/benton/BentonModDisp-BoldItalic.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-BoldItalic.woff") format("woff");
  font-weight: 600;
  font-style: italic
-}
+} */
 
 @font-face {
  font-family: 'Barlow';
@@ -222,12 +222,12 @@ input[type=text]::-ms-clear {
  font-style: normal
 }
 
-@font-face {
+/* @font-face {
  font-family: 'Barlow';
  src: url("../fonts/barlow/BarlowCondensed-Italic.woff2") format("woff2"), url("../fonts/barlow/BarlowCondensed-Italic.woff") format("woff");
  font-weight: 400;
  font-style: italic
-}
+} */
 
 @font-face {
  font-family: 'Barlow';
@@ -236,7 +236,7 @@ input[type=text]::-ms-clear {
  font-style: normal
 }
 
-@font-face {
+/* @font-face {
  font-family: 'Barlow';
  src: url("../fonts/barlow/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("../fonts/barlow/BarlowCondensed-MediumItalic.woff") format("woff");
  font-weight: 500;
@@ -248,7 +248,7 @@ input[type=text]::-ms-clear {
  src: url("../fonts/barlow/BarlowCondensed-SemiBoldItalic.woff2") format("woff2"), url("../fonts/barlow/BarlowCondensed-SemiBoldItalic.woff") format("woff");
  font-weight: 600;
  font-style: italic
-}
+} */
 
 @font-face {
  font-family: 'Barlow';
@@ -271,7 +271,7 @@ input[type=text]::-ms-clear {
  font-style: italic
 }
 
-@font-face {
+/* @font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-SemiBd.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-SemiBd.woff") format("woff");
  font-weight: 500;
@@ -297,7 +297,7 @@ input[type=text]::-ms-clear {
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-BoldIt.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-BoldIt.woff") format("woff");
  font-weight: 600;
  font-style: italic
-}
+} */
 
 @font-face {
  font-family: "iconicsocial";
