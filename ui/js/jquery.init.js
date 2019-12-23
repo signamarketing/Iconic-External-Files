@@ -43,7 +43,7 @@ jQuery(function($){
     });
 
 
-    // opt-in POP UP
+    // opt-in POP UP TRIGGER
     $.cook = Cookies.get('opt-in');
     if ($.cook === "on") {
 
