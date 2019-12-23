@@ -43,7 +43,28 @@ jQuery(function($){
     });
 
 
+    // opt-in POP UP
+    $.cook = Cookies.get('opt-in');
+    if ($.cook === "on") {
 
+    } else {
+        setTimeout(function(){
+            $.magnificPopup.open({
+                items: {
+                    src: '#small-dialog' //ID OF INLINE ELEMENT
+                },
+                type:'inline',
+                mainClass: 'my-mfp-zoom-in'
+            });
+            Cookies.set("opt-in", "on", {
+                expires: 3
+            });
+        }, 25000);  // 1000 equals 1 second
+    }
+
+    $('.close-opt').click(function(){
+        $('.mfp-close').trigger('click');
+      });
 
 
 
