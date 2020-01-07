@@ -266,6 +266,14 @@ font-style: normal;
 }
 
 @font-face {
+    font-family: 'Barlow Regular';
+    src: url('../fonts/barlow/barlow-v4-latin-regular.woff2') format('woff2'),
+        url('../fonts/barlow/barlow-v4-latin-regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    }
+
+@font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd.woff") format("woff");
  font-weight: 400;
