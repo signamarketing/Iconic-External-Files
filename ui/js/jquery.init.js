@@ -57,9 +57,9 @@ jQuery(function($){
                 mainClass: 'my-mfp-zoom-in'
             });
             Cookies.set("opt-in", "on", {
-                expires: 3
+                expires: 365
             });
-        }, 25000);  // 1000 equals 1 second
+        }, 15000);  // 1000 equals 1 second
     }
 
     $('.close-opt').click(function(){
