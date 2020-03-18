@@ -61,6 +61,7 @@ jQuery(function($){
             });
         }, 3000);  // 1000 equals 1 second
     }
+    
 
     $('.close-opt').click(function(){
         $('.mfp-close').trigger('click');
