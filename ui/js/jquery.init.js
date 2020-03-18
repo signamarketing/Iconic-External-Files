@@ -54,7 +54,7 @@ jQuery(function($){
                     src: '#small-dialog' //ID OF INLINE ELEMENT
                 },
                 type:'inline',
-                preloader: false;
+                preloader: false,
                 mainClass: 'my-mfp-zoom-in'
             });
             Cookies.set("opt-in", "on", {
