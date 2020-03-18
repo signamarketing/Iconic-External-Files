@@ -59,7 +59,7 @@ jQuery(function($){
             Cookies.set("opt-in", "on", {
                 expires: 3
             });
-        }, 1000);  // 1000 equals 1 second
+        }, 3000);  // 1000 equals 1 second
     }
 
     $('.close-opt').click(function(){
