@@ -44,29 +44,84 @@ jQuery(function($){
 
 
     // opt-in POP UP
-    // $.cook = Cookies.get('opt-in');
-    // if ($.cook === "on") {
+    $.cook = Cookies.get('opt-in');
+    if ($.cook === "on") {
+        // do nothing
 
-    // } else {
-    //     setTimeout(function(){
-    //         $.magnificPopup.open({
-    //             items: {
-    //                 src: '#small-dialog' //ID OF INLINE ELEMENT
-    //             },
-    //             type:'inline',
-    //             preloader: false,
-    //             mainClass: 'my-mfp-zoom-in'
-    //         });
-    //         Cookies.set("opt-in", "on", {
-    //             expires: 3
-    //         });
-    //     }, 3000);  // 1000 equals 1 second
-    // }
-    
+    } else if( $('#small-dialog').length > 0 ) {
+        setTimeout(function(){
+            $.magnificPopup.open({
+                items: {
+                    src: '#small-dialog' //ID OF INLINE ELEMENT
+                },
+                type:'inline',
+                preloader: false,
+                mainClass: 'my-mfp-zoom-in'
+            });
+            Cookies.set("opt-in", "on");
+            
+        }, 3000);  // 1000 equals 1 second
+    }
 
     $('.close-opt').click(function(){
         $('.mfp-close').trigger('click');
       });
+      
+      
+      // opt-in POP UP GLOBAL
+    $.cook = Cookies.get('opt-in-1');
+    if ($.cook === "on") {
+        // do nothing
+
+    } else if( $('#small-global-dialog').length > 0 ) {
+        setTimeout(function(){
+            $.magnificPopup.open({
+                items: {
+                    src: '#small-global-dialog' //ID OF INLINE ELEMENT
+                },
+                type:'inline',
+                preloader: false,
+                mainClass: 'my-mfp-zoom-in'
+            });
+            Cookies.set("opt-in-1", "on", {
+                expires: 3
+            });
+            
+        }, 15000);  // 1000 equals 1 second
+    }
+
+    $('.close-opt').click(function(){
+        $('.mfp-close').trigger('click');
+      });
+      
+      
+      
+      // DONATE OPT IN VIRTUAL TOUR
+    $.cook = Cookies.get('opt-in-donate');
+    if ($.cook === "on") {
+        // do nothing
+
+    } else if( $('#donate-dialog').length > 0 ) {
+        setTimeout(function(){
+            $.magnificPopup.open({
+                items: {
+                    src: '#donate-dialog' //ID OF INLINE ELEMENT
+                },
+                type:'inline',
+                preloader: false,
+                mainClass: 'my-mfp-zoom-in'
+            });
+            Cookies.set("opt-in-donate", "on");
+            
+        }, 3000);  // 1000 equals 1 second
+    }
+
+    $('.close-opt').click(function(){
+        $('.mfp-close').trigger('click');
+      });
+      
+      
+      
 
 
 
