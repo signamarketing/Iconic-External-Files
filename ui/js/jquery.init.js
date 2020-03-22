@@ -44,24 +44,24 @@ jQuery(function($){
 
 
     // opt-in POP UP
-    $.cook = Cookies.get('opt-in');
-    if ($.cook === "on") {
+    // $.cook = Cookies.get('opt-in');
+    // if ($.cook === "on") {
 
-    } else {
-        setTimeout(function(){
-            $.magnificPopup.open({
-                items: {
-                    src: '#small-dialog' //ID OF INLINE ELEMENT
-                },
-                type:'inline',
-                preloader: false,
-                mainClass: 'my-mfp-zoom-in'
-            });
-            Cookies.set("opt-in", "on", {
-                expires: 3
-            });
-        }, 3000);  // 1000 equals 1 second
-    }
+    // } else {
+    //     setTimeout(function(){
+    //         $.magnificPopup.open({
+    //             items: {
+    //                 src: '#small-dialog' //ID OF INLINE ELEMENT
+    //             },
+    //             type:'inline',
+    //             preloader: false,
+    //             mainClass: 'my-mfp-zoom-in'
+    //         });
+    //         Cookies.set("opt-in", "on", {
+    //             expires: 3
+    //         });
+    //     }, 3000);  // 1000 equals 1 second
+    // }
     
 
     $('.close-opt').click(function(){
