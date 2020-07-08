@@ -43,7 +43,82 @@ jQuery(function($){
     });
 
 
+    // opt-in POP UP
+    $.cook = Cookies.get('opt-in');
+    if ($.cook === "on") {
+        // do nothing
 
+    } else if( $('#small-dialog').length > 0 ) {
+        setTimeout(function(){
+            $.magnificPopup.open({
+                items: {
+                    src: '#small-dialog' //ID OF INLINE ELEMENT
+                },
+                type:'inline',
+                preloader: false,
+                mainClass: 'my-mfp-zoom-in'
+            });
+            Cookies.set("opt-in", "on");
+            
+        }, 3000);  // 1000 equals 1 second
+    }
+
+    $('.close-opt').click(function(){
+        $('.mfp-close').trigger('click');
+      });
+      
+      
+      // opt-in POP UP GLOBAL
+    $.cook = Cookies.get('opt-in-1');
+    if ($.cook === "on") {
+        // do nothing
+
+    } else if( $('#small-global-dialog').length > 0 ) {
+        setTimeout(function(){
+            $.magnificPopup.open({
+                items: {
+                    src: '#small-global-dialog' //ID OF INLINE ELEMENT
+                },
+                type:'inline',
+                preloader: false,
+                mainClass: 'my-mfp-zoom-in'
+            });
+            Cookies.set("opt-in-1", "on", {
+                expires: 3
+            });
+            
+        }, 15000);  // 1000 equals 1 second
+    }
+
+    $('.close-opt').click(function(){
+        $('.mfp-close').trigger('click');
+      });
+      
+      
+      
+      // DONATE OPT IN VIRTUAL TOUR
+    $.cook = Cookies.get('opt-in-donate');
+    if ($.cook === "on") {
+        // do nothing
+
+    } else if( $('#donate-dialog').length > 0 ) {
+        setTimeout(function(){
+            $.magnificPopup.open({
+                items: {
+                    src: '#donate-dialog' //ID OF INLINE ELEMENT
+                },
+                type:'inline',
+                preloader: false,
+                mainClass: 'my-mfp-zoom-in'
+            });
+            Cookies.set("opt-in-donate", "on");
+            
+        }, 20000);  // 1000 equals 1 second
+    }
+
+    $('.close-opt').click(function(){
+        $('.mfp-close').trigger('click');
+      });
 
 
 
@@ -161,9 +236,9 @@ jQuery(function($){
         navText: ["<div class='icon-angle-left'></div>", "<div class='icon-angle-right'></div>"]
     });
 
-    $( ".home-fade" ).mouseenter(function() {
-        owl.trigger('play.owl.autoplay', 8000);
-    });
+    // $( ".home-fade" ).mouseenter(function() {
+    //     owl.trigger('play.owl.autoplay', 8000);
+    // });
 
     $(document).on('keydown', function( event ) { //attach event listener
         if(event.keyCode == 37) {

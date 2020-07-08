@@ -177,126 +177,162 @@ input[type=text]::-ms-clear {
  font-family: 'Benton';
  src: url("../fonts/benton/BentonModDisp-Regular.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-Regular.woff") format("woff");
  font-weight: 400;
- font-style: normal
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'Benton';
  src: url("../fonts/benton/BentonModDisp-RegularItalic.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-RegularItalic.woff") format("woff");
  font-weight: 400;
- font-style: italic
+ font-style: italic;
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'Benton';
  src: url("../fonts/benton/BentonModDisp-Semibold.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-Semibold.woff") format("woff");
  font-weight: 500;
- font-style: normal
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'Benton';
  src: url("../fonts/benton/BentonModDisp-SemiboldItalic.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-SemiboldItalic.woff") format("woff");
  font-weight: 500;
- font-style: italic
+ font-style: italic;
+ font-display: swap;
 }
 
-@font-face {
+/* @font-face {
  font-family: 'Benton';
  src: url("../fonts/benton/BentonModDisp-Bold.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-Bold.woff") format("woff");
  font-weight: 600;
- font-style: normal
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'Benton';
  src: url("../fonts/benton/BentonModDisp-BoldItalic.woff2") format("woff2"), url("../fonts/benton/BentonModDisp-BoldItalic.woff") format("woff");
  font-weight: 600;
- font-style: italic
-}
+ font-style: italic;
+ font-display: swap;
+} */
 
 @font-face {
  font-family: 'Barlow';
  src: url("../fonts/barlow/BarlowCondensed-Regular.woff2") format("woff2"), url("../fonts/barlow/BarlowCondensed-Regular.woff") format("woff");
  font-weight: 400;
- font-style: normal
+ font-style: normal;
+ font-display: swap;
 }
 
-@font-face {
+/* @font-face {
  font-family: 'Barlow';
  src: url("../fonts/barlow/BarlowCondensed-Italic.woff2") format("woff2"), url("../fonts/barlow/BarlowCondensed-Italic.woff") format("woff");
  font-weight: 400;
- font-style: italic
-}
+ font-style: italic;
+ font-display: swap;
+} */
 
 @font-face {
  font-family: 'Barlow';
  src: url("../fonts/barlow/BarlowCondensed-Medium.woff2") format("woff2"), url("../fonts/barlow/BarlowCondensed-Medium.woff") format("woff");
  font-weight: 500;
- font-style: normal
+ font-style: normal;
+ font-display: swap;
 }
 
-@font-face {
+/* @font-face {
  font-family: 'Barlow';
  src: url("../fonts/barlow/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("../fonts/barlow/BarlowCondensed-MediumItalic.woff") format("woff");
  font-weight: 500;
- font-style: italic
+ font-style: italic;
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'Barlow';
  src: url("../fonts/barlow/BarlowCondensed-SemiBoldItalic.woff2") format("woff2"), url("../fonts/barlow/BarlowCondensed-SemiBoldItalic.woff") format("woff");
  font-weight: 600;
- font-style: italic
-}
+ font-style: italic;
+ font-display: swap;
+} */
 
 @font-face {
  font-family: 'Barlow';
  src: url("../fonts/barlow/BarlowCondensed-SemiBold.woff2") format("woff2"), url("../fonts/barlow/BarlowCondensed-SemiBold.woff") format("woff");
  font-weight: 600;
- font-style: normal
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd.woff") format("woff");
  font-weight: 400;
- font-style: normal
+ font-style: normal;
+ font-display: swap;
 }
+
+
+@font-face {
+    font-family: 'Barlow Regular';
+    src: url('../fonts/barlow/barlow-v4-latin-regular.woff2') format('woff2'),
+        url('../fonts/barlow/barlow-v4-latin-regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    }
 
 @font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-It.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-It.woff") format("woff");
  font-weight: 400;
- font-style: italic
+ font-style: italic;
+ font-display: swap;
 }
 
-@font-face {
+/* @font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-SemiBd.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-SemiBd.woff") format("woff");
  font-weight: 500;
- font-style: normal
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-SemiBdIt.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-SemiBdIt.woff") format("woff");
  font-weight: 500;
- font-style: italic
+ font-style: italic;
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-Bold.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-Bold.woff") format("woff");
  font-weight: 600;
- font-style: normal
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'NewCaledonia';
  src: url("../fonts/newcaledonia/NewCaledoniaLTStd-BoldIt.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-BoldIt.woff") format("woff");
  font-weight: 600;
- font-style: italic
+ font-style: italic;
+ font-display: swap;
+} */
+
+@font-face {
+ font-family: 'NewCaledonia';
+ src: url("../fonts/newcaledonia/NewCaledoniaLTStd-Bold.woff2") format("woff2"), url("../fonts/newcaledonia/NewCaledoniaLTStd-Bold.woff") format("woff");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
