@@ -236,9 +236,9 @@ jQuery(function($){
         navText: ["<div class='icon-angle-left'></div>", "<div class='icon-angle-right'></div>"]
     });
 
-    $( ".home-fade" ).mouseenter(function() {
-        owl.trigger('play.owl.autoplay', 8000);
-    });
+    // $( ".home-fade" ).mouseenter(function() {
+    //     owl.trigger('play.owl.autoplay', 8000);
+    // });
 
     $(document).on('keydown', function( event ) { //attach event listener
         if(event.keyCode == 37) {
