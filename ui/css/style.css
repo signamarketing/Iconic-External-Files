@@ -214,17 +214,6 @@ input[type=text]::-ms-clear {
  font-weight: 600;
  font-style: italic
 } */
-<<<<<<< HEAD
-
-@font-face {
-font-family: 'Barlow';
-src: url('../fonts/barlow/BarlowCondensed-Light.woff2') format('woff2'),
-    url('../fonts/barlow/BarlowCondensed-Light.woff') format('woff');
-font-weight: 300;
-font-style: normal;
-}
-=======
->>>>>>> master
 
 @font-face {
  font-family: 'Barlow';
@@ -4175,7 +4164,6 @@ button, input[type=submit] {
 
 #craves-content .featured-list-new .featured-item-new .shop-btn {
  font: 500 12px/1 "Barlow";
- padding: 3px 0;
  display: block;
  margin: 15px 0 0;
  border: 1px solid #000;
