@@ -214,6 +214,7 @@ input[type=text]::-ms-clear {
  font-weight: 600;
  font-style: italic
 } */
+<<<<<<< HEAD
 
 @font-face {
 font-family: 'Barlow';
@@ -222,6 +223,8 @@ src: url('../fonts/barlow/BarlowCondensed-Light.woff2') format('woff2'),
 font-weight: 300;
 font-style: normal;
 }
+=======
+>>>>>>> master
 
 @font-face {
  font-family: 'Barlow';
@@ -279,6 +282,15 @@ font-style: normal;
  font-weight: 400;
  font-style: normal
 }
+
+
+@font-face {
+    font-family: 'Barlow Regular';
+    src: url('../fonts/barlow/barlow-v4-latin-regular.woff2') format('woff2'),
+        url('../fonts/barlow/barlow-v4-latin-regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    }
 
 @font-face {
  font-family: 'NewCaledonia';

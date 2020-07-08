@@ -43,18 +43,27 @@ jQuery(function($){
     });
 
 
+<<<<<<< HEAD
     // opt-in POP UP
     $.cook = Cookies.get('opt-in');
     if ($.cook === "on") {
         // do nothing
 
     } else if( $('#small-dialog').length > 0 ) {
+=======
+    // opt-in POP UP TRIGGER
+    $.cook = Cookies.get('opt-in');
+    if ($.cook === "on") {
+
+    } else {
+>>>>>>> master
         setTimeout(function(){
             $.magnificPopup.open({
                 items: {
                     src: '#small-dialog' //ID OF INLINE ELEMENT
                 },
                 type:'inline',
+<<<<<<< HEAD
                 preloader: false,
                 mainClass: 'my-mfp-zoom-in'
             });
@@ -115,13 +124,25 @@ jQuery(function($){
             
         }, 3000);  // 1000 equals 1 second
     }
+=======
+                mainClass: 'my-mfp-zoom-in'
+            });
+            Cookies.set("opt-in", "on", {
+                expires: 365
+            });
+        }, 15000);  // 1000 equals 1 second
+    }
+>>>>>>> master
 
     $('.close-opt').click(function(){
         $('.mfp-close').trigger('click');
       });
+<<<<<<< HEAD
       
       
       
+=======
+>>>>>>> master
 
 
 
