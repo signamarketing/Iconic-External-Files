@@ -1194,6 +1194,9 @@ img.mfp-img {
  .owl-nav {
   font-size: 90px
  }
+ .home-slider .owl-nav {
+     top:50% !important;
+ }
 
  .owl-prev {
   left: -60px
@@ -1236,6 +1239,9 @@ img.mfp-img {
  .owl-nav {
   display: none
  }
+ .home-slider .owl-nav {
+    display:block;
+    }
 }
 
 .owl-theme .owl-nav {
