@@ -1194,7 +1194,7 @@ img.mfp-img {
  .owl-nav {
   font-size: 90px
  }
- .home-slider .owl-nav {
+ .home-slider .owl-nav, .home-fade .owl-nav {
      top:50% !important;
  }
 
@@ -1239,7 +1239,7 @@ img.mfp-img {
  .owl-nav {
   display: none
  }
- .home-slider .owl-nav {
+ .home-slider .owl-nav, .home-fade .owl-nav {
     display:block;
     }
 }
