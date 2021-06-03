@@ -2069,13 +2069,13 @@ button, input[type=submit] {
  border-bottom: 1px solid #000
 }
 
-#section-divider-inside {
+#section-divider-inside, #iconic-slider {
  max-width: 1220px;
  width: 100%;
  margin: 0 auto
 }
 
-#section-divider-inside .inner-divider {
+#section-divider-inside .inner-divider, #iconic-slider .inner-divider {
  border-bottom: 1px solid #000
 }
 
@@ -3018,7 +3018,7 @@ button, input[type=submit] {
  margin: 45px 0 45px
 }
 
-#home-content .content #section-divider-inside {
+#home-content .content #section-divider-inside, #home-content .content #iconic-slider {
  margin: 45px 0 45px
 }
 
@@ -3975,7 +3975,7 @@ button, input[type=submit] {
  margin-top: 20px
 }
 
-#story-content #section-divider-inside {
+#story-content #section-divider-inside, #story-content #iconic-slider {
  margin-top: 20px
 }
 
@@ -4259,7 +4259,7 @@ button, input[type=submit] {
  margin: 50px 0
 }
 
-#craves-content #section-divider-inside {
+#craves-content #section-divider-inside, #craves-content #iconic-slider {
  margin: 50px 0
 }
 
@@ -4405,7 +4405,7 @@ button, input[type=submit] {
  margin: 50px 0
 }
 
-#category-content #section-divider-inside {
+#category-content #section-divider-inside, #category-content #iconic-slider {
  margin: 50px 0
 }
 
@@ -5148,7 +5148,7 @@ button, input[type=submit] {
   max-width: 1020px
  }
 
- #section-divider-inside {
+ #section-divider-inside, #iconic-slider {
   max-width: 1020px
  }
 
@@ -5214,7 +5214,7 @@ button, input[type=submit] {
   max-width: 870px
  }
 
- #section-divider-inside {
+ #section-divider-inside, #iconic-slider {
   max-width: 870px
  }
 
