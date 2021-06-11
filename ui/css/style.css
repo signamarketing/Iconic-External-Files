@@ -1229,14 +1229,17 @@ img.mfp-img {
 }
 
 @media screen and (max-width: 600px) {
- .owl-carousel {
-  padding: 0
- }
-
- .owl-nav {
-  display: none
- }
-}
+    .owl-carousel {
+     padding: 0
+    }
+   
+    .owl-nav {
+     display: none
+    }
+    .home-slider .owl-nav, .home-fade .owl-nav {
+       display:block;
+       }
+   }
 
 .owl-theme .owl-nav {
  margin-top: 10px;
