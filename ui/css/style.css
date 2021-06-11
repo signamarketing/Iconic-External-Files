@@ -1191,18 +1191,21 @@ img.mfp-img {
 }
 
 @media screen and (max-width: 1236px) {
- .owl-nav {
-  font-size: 90px
- }
-
- .owl-prev {
-  left: -60px
- }
-
- .owl-next {
-  right: -60px
- }
-}
+    .owl-nav {
+     font-size: 90px
+    }
+    .home-slider .owl-nav, .home-fade .owl-nav {
+        top:50% !important;
+    }
+   
+    .owl-prev {
+     left: -60px
+    }
+   
+    .owl-next {
+     right: -60px
+    }
+   }
 
 @media screen and (max-width: 1036px) {
  .owl-nav {
